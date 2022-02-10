@@ -303,6 +303,7 @@ header .main-menu li a {
 
 #company_history .histroy_card_container {
   margin-top: 50px;
+  padding: 0 300px;
 }
 
 #company_history .histroy_card_container .row {
@@ -315,7 +316,7 @@ header .main-menu li a {
 }
 
 #company_history .histroy_card {
-  width: 492px;
+  width: calc(98% * 1 / 3);
   height: 306px;
   padding: 30px;
   padding-bottom: 36px;
@@ -726,6 +727,11 @@ header .main-menu li a {
   display: none;
 }
 
+@media screen and (max-width: 1640px) {
+  #company_history .histroy_card_container {
+    padding: 0 30px;
+  }
+}
 @media screen and (max-width: 768px) {
   #hero_section {
     background-image: url("../images/hero-image@768.png");
@@ -780,6 +786,7 @@ header .main-menu li a {
     height: 100%;
   }
   #company_history .histroy_card_container {
+    padding: 0px;
     margin-top: 34px;
   }
   #company_history .histroy_card_container .row:nth-child(2) {
@@ -832,6 +839,7 @@ header .main-menu li a {
   #business_area .business_card_container {
     margin-top: 60px;
     flex-wrap: wrap;
+    justify-content: center;
   }
   #business_area .business_card_container .business_card {
     width: 296px;
@@ -991,7 +999,7 @@ header .main-menu li a {
   }
   #business_area .business_card_container .business_card {
     width: 406px;
-    height: 574px;
+    height: 514px;
     margin-top: 52px;
     padding-top: 293px;
   }
@@ -1049,6 +1057,9 @@ header .main-menu li a {
 
   #company_history .inner {
     padding: 0px 40px 0 40px;
+  }
+  #company_history .histroy_card p {
+    font-size: 15px;
   }
 
   #footer .company_info_summary {
