@@ -283,18 +283,18 @@
         </p>
 
       </div>
-      <div class="form-elements">
+      <form class="form-elements gform" method="POST" action="https://script.google.com/macros/s/AKfycbwOQ8CVWybb-hq8woA_0gOnvn1BkNek8MpYY5mG/exec">
         <div class="row">
           <fieldset class="form-elements__box">
-            <label for="name">전화번호 </label>
-            <input id="name"
-                   name="name"
+            <label for="telnum">전화번호 </label>
+            <input id="telnum"
+                   name="telnum"
                    placeholder=" ">
           </fieldset>
           <fieldset class="form-elements__box">
-            <label for="name">이메일 </label>
-            <input id="name"
-                   name="name"
+            <label for="email">이메일 </label>
+            <input id="email"
+                   name="email"
                    placeholder=" ">
           </fieldset>
         </div>
@@ -307,8 +307,16 @@
                       placeholder=""></textarea>
           </fieldset>
         </div>
+        <fieldset class="pure-group honeypot-field">
+          <label for="honeypot"
+            >To help avoid spam, utilize a Honeypot technique with a hidden
+            text field; must be empty to submit the form! Otherwise, we
+            assume the user is a spam bot.</label
+          >
+          <input id="honeypot" type="text" name="honeypot" value="" />
+        </fieldset>
         <button class="button-success">문의하기</button>
-      </div>
+      </form>
     </div>
   </section>
 
@@ -381,7 +389,16 @@
   </section>
 
 
-
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"
+></script>
+<script
+  data-cfasync="false"
+  type="text/javascript"
+  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"
+></script>
 </body>
 
 </html>
