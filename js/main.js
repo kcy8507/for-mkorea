@@ -27,7 +27,6 @@ const sideMenu = document.querySelector(".side_bg");
 const sideCancelBtn = document.querySelector(".side_cancelBtn");
 
 hamBtn.addEventListener("click", () => {
-  // console.log("왜안돼");
   sideMenu.classList.add("active");
 });
 
