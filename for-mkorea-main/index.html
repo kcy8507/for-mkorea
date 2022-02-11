@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>for-mkorea</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+  <script class="daum_roughmap_loader_script"
+    src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"
+    integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollToPlugin.min.js"
+    integrity="sha512-1OG9UO4krPizjtz/c9iDbjCqtXznBYdJeD4ccPaYfJHzC6F1qoQ3P1bgQ3J8lgCoK5qGVCqsY4+/RKjLDzITVQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-smooth-scroll@2.2.0/jquery.smooth-scroll.min.js"></script>
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="inner">
+      <a href="#hero_section" class="logo">
+        <img src="./images/for-m_logo.png">
+      </a>
+      <ul class="main-menu">
+        <li><a href="#about_company">회사소개</a></li>
+        <li><a href="#company_history">연혁</a></li>
+        <li><a href="#business_area">사업분야</a></li>
+        <li><a href="#company_project">연구개발</a></li>
+        <li><a href="#connect">고객지원</a></li>
+        <li><a href="#company_info">오시는길</a></li>
+      </ul>
+      <div class="hamburger-btn">
+      </div>
+    </div>
+  </header>
+  <div class="side_bg">
+    <div class="hamburger-side-menu">
+      <div class="side_cancelBtn"></div>
+      <ul class="side_menu">
+        <li><a href="#about_company">회사소개</a></li>
+        <li><a href="#company_history">연혁</a></li>
+        <li><a href="#business_area">사업분야</a></li>
+        <li><a href="#company_project">연구개발</a></li>
+        <li><a href="#connect">고객지원</a></li>
+        <li><a href="#company_info">오시는길</a></li>
+      </ul>
+    </div>
+  </div>
+  <section id="hero_section">
+    <div class="bg_dark"></div>
+    <div class="inner">
+      <div class="company_copy">
+        <div class="company_identity">Smart</div>
+        <div class="company_identity">Marine industry</div>
+        <div class="company_detail">편리한 양식업을 위한 스마트 수산/양식을 연구 개발합니다</div>
+        <div class="more_button">자세히 보기</div>
+      </div>
+    </div>
+  </section>
+  <section id="about_company">
+    <div class="inner">
+      <div class="intro">
+        <h1>COMPANY</h1>
+        <h2>국제 수준의 해양 개발 기술</h2>
+        <p>
+          (주)포엠은 국제 수준의 해양 개발 기술과</br>
+          지속적인 연구개발을 통해 고부가가치 제품의 개발 및 생산에</br>
+          주력하고 있습니다.
+        </p>
+      </div>
+      <img class="company_factory" src="images/compay_factory.jpg">
+    </div>
+  </section>
+  <section id="company_history">
+    <div class="inner">
+      <div class="intro">
+        <h1>HISTORY</h1>
+        <p>차세대 에너지 설비 기술을 개발하는 기업, 포엠이 또 한 번 앞서 갑니다.</p>
+      </div>
+    </div>
+    <div class="histroy_card_container">
+      <div class="row">
+        <div class="histroy_card">
+          <img src="./images/history-icon01.png" alt="">
+          <div class="histroy_text">
+            <h1>01</h1>
+            <h2>2021.04</h2>
+          </div>
+          <p>주식회사 포엠 설립</p>
+        </div>
+        <div class="histroy_card">
+          <img src="./images/history-icon02.png" alt="">
+          <div class="histroy_text">
+            <h1>02</h1>
+            <h2>2021.05</h2>
+          </div>
+          <!-- <div class="histroy_text-mobile"> -->
+          <p>
+            기업부설 연구소 인증</br>
+            중소벤처기업부 창업기업 인증</br>
+            해양수산부 기술 개발 사업 2건 수행
+          </p>
+          <!-- </div> -->
+        </div>
+        <div class="histroy_card">
+          <img src="./images/history-icon03.png" alt="">
+          <div class="histroy_text">
+            <h1>03</h1>
+            <h2>2021.06</h2>
+          </div>
+          <p>중소벤처기업부 1인 창조기업 인증</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="histroy_card">
+          <img src="./images/history-icon-44.png" alt="">
+          <div class="histroy_text">
+            <h1>04</h1>
+            <h2>2021.10</h2>
+          </div>
+          <p>중소벤처기업부 장관 대상 수상</br>
+            해양수산부 해양스타트업 장려상 수상</p>
+        </div>
+        <div class="histroy_card">
+          <img src="./images/history-icon04.png" alt="">
+          <div class="histroy_text">
+            <h1>05</h1>
+            <h2>2021.12</h2>
+          </div>
+          <p>
+            중소벤처기업부 성과 공유제 도입 기업 인증</br>
+            과학기술 정보통신부 연구개발 서비스업 인증</br>
+            한국발명진흥회 직무발명보상 우수기업 인증</br>
+          </p>
+        </div>
+        <div class="histroy_card">
+          <img src="./images/history-icon05.png" alt="">
+          <div class="histroy_text">
+            <h1>06</h1>
+            <h2>2022.01~</h2>
+          </div>
+          <p>
+            NET 신기술 인증(진행중)</br>
+            녹색인증(진행중)</br>
+            지식재산경영인증(진행중)</br>
+            직무발명보상 우수기업 인증(진행중)</br>
+            여성가족부 가족친화 인증 (진행 중)
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="business_area">
+    <div class="inner">
+      <div class="intro">
+        <h1>BUSINESS AREA</h1>
+        <p>차세대 에너지 설비 기술을 개발하는 기업, 포엠이 또 한 번 앞서 갑니다</p>
+      </div>
+
+      <div class="business_card_container">
+        <div class="business_card">
+          <div class="bg_dark"></div>
+          <h1>미래 신기술 개발사업</h1>
+          <p>고부가가치 해양 기술 개발</p>
+          <p>해양 환경 개선 기술 개발</p>
+          <p>차세대 에너지 설비 기술 개발</p>
+          <p>자동화 설비 국산화 개발</p>
+        </div>
+
+        <div class="business_card">
+          <div class="bg_dark"></div>
+          <h1>신제품 개발 사업</h1>
+          <p>산학연 융합 기반 확보</p>
+          <p>내부 R&D 역량강화</p>
+          <p>신규시장 대응 기술 개발</p>
+        </div>
+
+        <div class="business_card">
+          <div class="bg_dark"></div>
+          <h1>연구 사업</h1>
+          <p>국가 R&D 기획 및 참여</p>
+          <p>융합 신기술 연구 기획</p>
+          <p>선진 기술 실증 및 보급</p>
+          <p>자동화 설비 국산화 개발</p>
+        </div>
+
+        <div class="business_card">
+          <div class="bg_dark"></div>
+          <h1>특허 및 인증</h1>
+          <p>특허 출원 및 등록</p>
+          <p>녹색 및 사회적 기업 인증</p>
+          <p>벤처기업, INNO-BIZ 인증</p>
+          <p>NET 인증</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="company_project">
+    <div class="inner">
+      <div class="intro">
+        <h1>PROJECT</h1>
+        <p>차세대 에너지 설비 기술을 개발하는 기업, 포엠이 또 한 번 앞서 갑니다</p>
+      </div>
+
+      <div class="project_card_container">
+
+        <div class="project_card">
+          <img class="project_card_img_top" src="./images/project_card_img01.png" alt="">
+          <div class="project_card__text_container">
+            <h1>해양산업</h1>
+            <p>해양 환경 개선 기술을 개발합니다</p>
+            <div class="project_link">
+              <h1>Marine industry</h1>
+              <img class="project__link_icon" src="./images/right_arrow.png">
+            </div>
+          </div>
+        </div>
+
+        <div class="project_card">
+          <img class="project_card_img_top" src="./images/project_card_img02.png" alt="">
+          <div class="project_card__text_container">
+            <h1>카본 산업</h1>
+            <p>차세대 에너지 설비 기술을 개발합니다</p>
+            <div class="project_link">
+              <h1>Carbon industry</h1>
+              <img class="project__link_icon" src="./images/right_arrow.png">
+            </div>
+          </div>
+        </div>
+
+        <div class="project_card">
+          <img class="project_card_img_top" src="./images/project_card_img03.png" alt="">
+          <div class="project_card__text_container">
+            <h1>자동화 산업</h1>
+            <p>자동화 설비 국산화 개발을 수행합니다.</p>
+            <div class="project_link">
+              <h1>Automation industry</h1>
+              <img class="project__link_icon" src="./images/right_arrow.png">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="connect">
+    <!-- <div class="connect-bg"></div> -->
+    <div class="inner">
+      <div class="intro">
+        <h1>CONNECT</h1>
+        <p>
+          분류별로 세부적인 상담을 요청하실 수 있으며</br>
+          간략하게 문의를 하실 수도 있습니다
+        </p>
+
+      </div>
+      <form class="form-elements gform" method="POST"
+        action="https://script.google.com/macros/s/AKfycbwOQ8CVWybb-hq8woA_0gOnvn1BkNek8MpYY5mG/exec">
+        <div class="row">
+          <fieldset class="form-elements__box">
+            <label for="telnum">전화번호 </label>
+            <input id="telnum" name="telnum" placeholder=" ">
+          </fieldset>
+          <fieldset class="form-elements__box">
+            <label for="email">이메일 </label>
+            <input id="email" name="email" placeholder=" ">
+          </fieldset>
+        </div>
+        <div class="row">
+          <fieldset class="form-elements__box message__box">
+            <label for="message">문의내용 </label>
+            <textarea id="message" name="message" rows="10" placeholder=""></textarea>
+          </fieldset>
+        </div>
+        <fieldset class="pure-group honeypot-field">
+          <label for="honeypot">To help avoid spam, utilize a Honeypot technique with a hidden
+            text field; must be empty to submit the form! Otherwise, we
+            assume the user is a spam bot.</label>
+          <input id="honeypot" type="text" name="honeypot" value="" />
+        </fieldset>
+        <button class="button-success">문의하기</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="company_info">
+    <div class="inner">
+      <!-- <div
+           style="font: 12px AppleSDGothicNeo-Regular, dotum, sans-serif; letter-spacing: -1px; width: 1516px; height: 450px; color: rgb(51, 51, 51); position: relative;">
+        <div style="height: 418px;"><a
+             href="https://map.kakao.com/?urlX=650997&amp;urlY=361268&amp;itemId=1463364065&amp;q=%ED%8F%AC%EC%97%A0&amp;srcid=1463364065&amp;map_type=TYPE_MAP&amp;from=roughmap"
+             target="_blank"><img class="map"
+                 src="http://t1.daumcdn.net/roughmap/imgmap/b68d39dba8a35f1ffe6e53001bf4c4475842e312ceec3fbb40456aa0e5d40f19"
+                 width="1514"
+                 height="418"
+                 style="border: 1px solid rgb(204, 204, 204);"></a></div>
+      </div> -->
+
+      <div class="company_info_container">
+        <div class="company_info_card">
+          <div class="img-box">
+            <img src="./images/company-info-icon01.png" alt="">
+          </div>
+          <h1>ADDRESS</h1>
+          <p>본사: 전라남도 여수시 삼동3길 17 </br>전남여수산학융합지구 기업연구관 601-2호 </p>
+          <p>공장 & 연구소: 전라남도 순천시 해룡면 해창리 310-2</p>
+        </div>
+        <div class="company_info_card">
+          <div class="img-box">
+            <img src="./images/company-info-icon02.png" alt="">
+          </div>
+          <h1>E-MAIL US</h1>
+          <p>office@for-MKorea.com</p>
+        </div>
+        <div class="company_info_card">
+          <div class="img-box">
+            <img src="./images/company-info-icon03.png" alt="">
+          </div>
+          <h1>PHONE</h1>
+          <p>010 - 3179 - 2560</p>
+        </div>
+      </div>
+      <hr>
+      <p class="location-label">본사</p>
+      <div id="daumRoughmapContainer1634509338788" class="root_daum_roughmap root_daum_roughmap_landing"
+        style="width:100%;height:418px"></div>
+      <p class="location-label">공장 및 연구소</p>
+      <div id="daumRoughmapContainer1638322798190" class="root_daum_roughmap root_daum_roughmap_landing"
+        style="width:100%;height:418px"></div>
+
+    </div>
+  </section>
+
+  <section id="footer">
+    <div class="inner">
+      <a href="/" class="logo">
+        <img src="./images/for-m_logo.png">
+      </a>
+      <div class="company_info_summary">
+        <p>본사: 전라남도 여수시 삼동3길 17 전남여수산학융합지구 기업연구관 601-2호 TEL:061-721-0408 | FAX: 061 - 725 - 0408</p>
+        <p>공장 & 연구소: 전라남도 순천시 해룡면 해창리 310-2</p>
+        <p>COPYRIGHT &copy; FORM ALL RIGHT RESERVED.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script
+    src="https://cdn.statically.io/gh/kswedberg/jquery-smooth-scroll/3948290d/jquery.smooth-scroll.min.js"></script>
+
+  <!-- <script
+  data-cfasync="false"
+  type="text/javascript"
+  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"
+></script> -->
+</body>
+
+</html>
