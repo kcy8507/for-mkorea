@@ -25,9 +25,11 @@ const logoEl = document.querySelector(".logo img");
 const hamBtn = document.querySelector(".hamburger-btn");
 const sideMenu = document.querySelector(".side_bg");
 const sideCancelBtn = document.querySelector(".side_cancelBtn");
+const sideEl = document.querySelectorAll(
+  ".side_bg .hamburger-side-menu .side_menu a"
+);
 
 hamBtn.addEventListener("click", () => {
-  // console.log("왜안돼");
   sideMenu.classList.add("active");
 });
 
@@ -108,3 +110,13 @@ window.addEventListener(
     }
   }, 300)
 );
+console.log(sideEl);
+const sideEls = [...sideEl];
+console.log(sideEls);
+
+for (let i = 0; i < sideEls.length; i++) {
+  sideEls[i].addEventListener("click", () => {
+    console.log(sideEls[i]);
+    sideMenu.classList.remove("active");
+  });
+}
