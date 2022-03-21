@@ -1,4 +1,4 @@
-console.log("hi");
+// console.log("hi");
 
 $(document).ready(function () {
   $("a").smoothScroll();
@@ -110,9 +110,9 @@ window.addEventListener(
     }
   }, 300)
 );
-console.log(sideEl);
+// console.log(sideEl);
 const sideEls = [...sideEl];
-console.log(sideEls);
+// console.log(sideEls);
 
 for (let i = 0; i < sideEls.length; i++) {
   sideEls[i].addEventListener("click", () => {
